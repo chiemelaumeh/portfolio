@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 function App() {
   return (
     <div className="App">
-     Hello world
+     <Header />
     </div>
   );
 }
