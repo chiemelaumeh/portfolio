@@ -17,10 +17,7 @@ const About = () => {
           <p className="about__description">
             Enterprising, self-motivated and teachable technology professional
             keen on leveraging full stack web development skills to build,
-            maintain, and distribute computer software. Versatile problem-solver
-            with strong interpersonal, communication, customer service, and
-            design skills. Deep understanding of object-oriented programming and
-            test-driven deployment.
+            maintain, and distribute computer software.
           </p>
           <a download="" href={Resume} className="button button--flex">Download Resume <i class="uil uil-file-download-alt"></i></a>
           
