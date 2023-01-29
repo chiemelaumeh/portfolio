@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__content">
-          <h3 className="contact__title">Write me you project</h3>
+          <h3 className="contact__title">Send a message</h3>
 
           <form className="contact__form">
             <div className="contact__form-div">
@@ -60,8 +60,8 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+            <div className="contact__form-div contact__form-area">
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="message"
                 cols="30"
