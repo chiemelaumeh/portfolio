@@ -4,11 +4,12 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/blackflame_6/?hl=en"
+        href="https://www.linkedin.com/in/chiemela-umeh-b4b982151/"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-instagram"></i>
+      
+      <i class="uil uil-linkedin"></i>
       </a>
       <a
         href="https://reddit-app-nw97.onrender.com/"
