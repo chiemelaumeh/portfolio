@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--containet-color);
+  background-color: var(--body-color);
 }
 
 .nav {
@@ -33,8 +33,23 @@
   font-weight:var(--font-medium);
   transition: .3s
 }
-
+.nav__icon,
 .nav__close,
 .nav__toggle {
   display: none;
+}
+
+/* Active link*/
+.active-link,
+.nav__link:hover {
+  color: var(--title-color-dark)
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .header {
+      top: initial;
+      bottom: 0;
+    }
 }
