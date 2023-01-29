@@ -39,16 +39,41 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me you project</h3>
 
-          <form className="contact__form"></form>
-          <div className="contact__form-div">
-            <label className="contact__form-tag">Name</label>
-            <input
-              type="text"
-              name="name"
-              className="contact__form-input"
-              placeholder="Enter your name"
-            />
-          </div>
+          <form className="contact__form">
+            <div className="contact__form-div">
+              <label className="contact__form-tag">Name</label>
+              <input
+                type="text"
+                name="name"
+                className="contact__form-input"
+                placeholder="Enter your name"
+              />
+            </div>
+
+            <div className="contact__form-div">
+              <label className="contact__form-tag">Mail</label>
+              <input
+                type="email"
+                name="email"
+                className="contact__form-input"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div className="contact__form-div">
+              <label className="contact__form-tag">Name</label>
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                className="contact__form-input"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <button className="button button--flex">
+              <p>Send message</p>
+            </button>
+          </form>
         </div>
       </div>
     </section>

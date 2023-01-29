@@ -1,0 +1,4 @@
+.contact__cointainer {
+  grid-template-columns: repeat(2, max-content);
+  
+}
