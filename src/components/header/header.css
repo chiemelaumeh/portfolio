@@ -59,7 +59,7 @@
 
   .nav__menu {
     position: fixed;
-    bottom: 0;
+    bottom: 100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -67,6 +67,11 @@
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
+  }
+
+  /* Show menu*/
+  .show-menu {
+    bottom: 0
   }
 
   .nav__list {
@@ -91,7 +96,13 @@
   .nav__close:hover {
     color: var(--title-color-dark);
   }
+  
 
+  .nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+
+  }
   .nav__icon,
   .nav__close,
   .nav__toggle {
@@ -107,6 +118,6 @@
 
   .nav__list {
     column-gap: 0;
-    
+
   }
 }
