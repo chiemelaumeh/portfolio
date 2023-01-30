@@ -8,21 +8,23 @@ export const Data = [
   {
     id: 1,
     image: Image1,
-    title: "Jhon Doe",
+    title: "Athena",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
+      link: "https://ticket-manager-app.onrender.com/"
   },
   {
     id: 2,
     image: Image2,
-    title: "Harry Clinton",
+    title: "Dreams Come Brew",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
+      link:"https://reddit-app-nw97.onrender.com/"
   },
   {
     id: 3,
     image: Image3,
-    title: "Sara Cill",
+    title: "Reddit",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
   },

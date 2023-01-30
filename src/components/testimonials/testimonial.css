@@ -10,15 +10,18 @@
 }
 
 .testimonial__img {
-  width: 60px;
+  width: 400px;
+  height: 200px;
   border-radius: 3rem;
-  margin-bottom: var(--mb-1);
+  margin-bottom: 3rem;
 }
 
 .testimonial__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
+  text-align: center;
+  color: var(--title-color);
 
 }
 

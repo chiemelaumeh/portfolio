@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonial.css";
 import { Data } from "./Data";
+import image from "../../assets/profile.jpg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,8 +16,8 @@ import { Pagination } from "swiper";
 const Testimonial = () => {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">"My clients say"</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">Portfolio</h2>
+      <span className="section__subtitle">My projects</span>
       <Swiper
         className="testimonial_container"
         loop={true}
@@ -36,15 +37,19 @@ const Testimonial = () => {
         }}
         modules={[Pagination]}
       >
-        {Data.map(({ id, image, title, description }) => {
+      {Data.map(({ id, image, title, description,link }) => {
           return (
-            <SwiperSlide className="testimonial__card" key={id}>
+            <SwiperSlide  key={id}>
+             
+              <h3 > <a href={link} target='_blank' className="testimonial__name" >{title}</a></h3>
               <img src={image} alt="" className="testimonial__img" />
-              <h3 className="testimonial__name">{title}</h3>
-              <p className="testimonial__description"></p>
+             
+              {/* <h3 className="testimonial__name">{title}</h3> */}
+              <p className="testimonial__description"> </p>
             </SwiperSlide>
           );
         })}
+
       </Swiper>
     </section>
   );
