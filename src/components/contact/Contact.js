@@ -1,6 +1,40 @@
-import React from "react";
-import "./contact.css"
+import React, { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
+import "./contact.css";
+
+
 const Contact = () => {
+
+  const [nameField, setNameField] = useState("") 
+  const [emailField, setEmailField] = useState("") 
+  const [messageField, setMessageField] = useState("") 
+
+
+  const changeNameField = (e)=> {
+    setNameField(e.target.value)
+  }
+  const changeEmailField = (e)=> {
+    setEmailField(e.target.value)
+  }
+  const changeMessageField = (e)=> {
+    setMessageField(e.target.value)
+  }
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fz12117",
+        "template_76upbxf",
+        form.current,
+        "lVRALwcoYwx4XuO9-"
+      )
+    e.target.reset()
+  };
+
   return (
     <section className="contact section" id="section">
       <h2 className="section__title">Get in touch</h2>
@@ -39,7 +73,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Send a message</h3>
 
-          <form className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
@@ -47,6 +81,8 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Enter your name"
+                value={nameField}
+                onChange={changeNameField}
               />
             </div>
 
@@ -57,6 +93,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Enter your email"
+                onChange={changeEmailField}
               />
             </div>
 
@@ -68,6 +105,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your message"
+                onChange={changeMessageField}
               ></textarea>
             </div>
             <button className="button button--flex">
