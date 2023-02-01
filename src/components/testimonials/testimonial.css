@@ -10,10 +10,15 @@
 }
 
 .testimonial__img {
-  width: 400px;
-  height: 200px;
+  width: 1500px;
+  height: 300px;
   border-radius: 3rem;
   margin-bottom: 3rem;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+
+  border-radius: 4px;
 }
 
 .testimonial__name {
