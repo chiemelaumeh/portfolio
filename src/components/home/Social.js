@@ -12,11 +12,11 @@ const Social = () => {
       <i class="uil uil-linkedin"></i>
       </a>
       <a
-        href="https://reddit-app-nw97.onrender.com/"
+        href="https://twitter.com/blackflame_6"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-dribbble"></i>
+        <i class="uil uil-twitter"></i>
       </a>
       <a
         href="https://github.com/Blackflame6"

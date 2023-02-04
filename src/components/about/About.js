@@ -13,7 +13,7 @@ const About = () => {
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
-          <Info />
+          {/* <Info /> */}
           <p className="about__description">
             Enterprising, self-motivated and teachable technology professional
             keen on leveraging full stack web development skills to build,
