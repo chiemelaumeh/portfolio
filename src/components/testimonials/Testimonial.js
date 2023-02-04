@@ -41,11 +41,16 @@ const Testimonial = () => {
           return (
             <SwiperSlide  key={id}>
              
-              <h3 > <a href={link} target='_blank' className="testimonial__name" >{title}</a></h3>
+              <h3 className="testimonial__name" > {title}</h3>
+              <p className="testimonial__description">{description} </p>
+              <a href={link} target='_blank' className="testimonial__name" >
+
+
               <img src={image} alt="" className="testimonial__img" />
              
               {/* <h3 className="testimonial__name">{title}</h3> */}
-              <p className="testimonial__description"> </p>
+           
+              </a>
             </SwiperSlide>
           );
         })}

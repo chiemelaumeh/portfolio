@@ -11,7 +11,7 @@ export const Data = [
   
     title: "Reddit",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers. Utilizing React Router as well as React Hooks to manage state and use side effects. Deployed using Render, implemented S3 bucket using AWS for product pictures.",
      
       link:"https://reddit-app-nw97.onrender.com/"
   },
@@ -20,7 +20,7 @@ export const Data = [
     image: Image2,
     title: "Dreams Come Brew",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers. Utilizing React Router as well as React Hooks to manage state and use side effects. Deployed using Render, implemented S3 bucket using AWS for product pictures.",
       link: "https://dreamscomebrew.onrender.com/"
      
   },
@@ -29,7 +29,7 @@ export const Data = [
     image: Image3,
     title: "Athena",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "A scalable, responsive solution for a tech company that handles maintenance requests across 4 campuses, with over 100 employees working on various tasks, in conjunction with employees making ticket request to campus tech teams.",
       link: "https://ticket-manager-app.onrender.com/"
   },
 ];
