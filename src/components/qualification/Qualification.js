@@ -3,7 +3,7 @@ import "./qualification.css";
 
 const Qualification = () => {
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
 
@@ -30,7 +30,7 @@ const Qualification = () => {
             <span className="qualification__subtitle">Payday</span>
             <div className="qualification__calender">
               <i className="uil uil-calender-alt"></i>
-              AUG 2022 - Present
+              Aug. 2022 - Present
             </div>
           </div>
         </div>
@@ -38,6 +38,25 @@ const Qualification = () => {
         <div className="qualification__sections">
           <div className="qualification__content">
             <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Student-Software Engineer
+                </h3>
+                <span className="qualification__subtitle">
+                  Operation Level-Up
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  Jul. 2021 — Nov. 2021
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Computer Science, B.S,</h3>
                 <span className="qualification__subtitle">
@@ -53,7 +72,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
 
             <div className="qualification__data">
               <div></div>
@@ -66,7 +85,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Galvanize Inc.</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  JAN 2022 — JUN 2022
+                  Jan. 2022 — Jun. 2022
                 </div>
               </div>
             </div>
@@ -74,14 +93,14 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Student-Software Engineer
+                  Associates, General Engineering
                 </h3>
                 <span className="qualification__subtitle">
-                  Operation Level-Up
+                  Southern Arkansas University
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  Jul 2021 — Nov 2021
+                  Jan. 2016 — Dec. 2017
                 </div>
               </div>
 
@@ -102,33 +121,13 @@ const Qualification = () => {
                 <span className="qualification__subtitle">U.S Army</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  AUG 2018 - DEC 2021
+                  Aug. 2018 - Dec. 2021
                 </div>
               </div>
             </div>
           </div>
 
           <div className="qualification__content">
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Associates, General Engineering
-                </h3>
-                <span className="qualification__subtitle">
-                  Southern Arkansas University
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>
-                  JAN 2016 — DEC 2017
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
             {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Development</h3>

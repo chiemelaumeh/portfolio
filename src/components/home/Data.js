@@ -8,7 +8,7 @@ const Data = () => {
       <p className="home__description">
         Hey! Thank you for visiting my website. My name is Chiemela. I am a U.S Army veteran and full stack developer. I build my projects mostly with PERN stack, however, I am interested in learning about the different technologies out there. Outside of work, I enjoy playing chess, working out and attending music festivals.
       </p>
-      <a href="#skills" className="button button--flex">
+      <a href="#contact" className="button button--flex center-button">
         <p>Say Hello</p>
       </a>
     </div>

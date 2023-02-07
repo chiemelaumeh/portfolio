@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact section" id="section">
+    <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
@@ -77,7 +77,7 @@ const Contact = () => {
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag" >Name</label>
               <input
                 type="text"
                 name="name"
@@ -85,6 +85,7 @@ const Contact = () => {
                 placeholder="Enter your name"
                 value={nameField}
                 onChange={changeNameField}
+                required
               />
             </div>
 
@@ -96,6 +97,7 @@ const Contact = () => {
                 className="contact__form-input"
                 placeholder="Enter your email"
                 onChange={changeEmailField}
+                required
               />
             </div>
 
@@ -108,6 +110,7 @@ const Contact = () => {
                 className="contact__form-input"
                 placeholder="Write your message"
                 onChange={changeMessageField}
+                required
               ></textarea>
             </div>
             <button className="button button--flex">

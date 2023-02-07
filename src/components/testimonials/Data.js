@@ -11,7 +11,7 @@ export const Data = [
   
     title: "Reddit",
     description:
-      "A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers. Utilizing React Router as well as React Hooks to manage state and use side effects. Deployed using Render, implemented S3 bucket using AWS for product pictures.",
+      "In this exciting project, I challenged myself to build reddit as seen through my eyes. When it is completed, users will be able to create an account, write, read, update and delete posts. The general workflow may be a little different from the reddit we all know, but the theme stays the same",
      
       link:"https://reddit-app-nw97.onrender.com/"
   },
@@ -20,7 +20,7 @@ export const Data = [
     image: Image2,
     title: "Dreams Come Brew",
     description:
-      "A Full Stack Ecommerce Web Application created with a team skilled of Software Engineers. Utilizing React Router as well as React Hooks to manage state and use side effects. Deployed using Render, implemented S3 bucket using AWS for product pictures.",
+      "A Full Stack Ecommerce Web Application built with a team skilled of Software Engineers. Utilizing React Router as well as React Hooks to manage state and use side effects. Deployed using Render, implemented S3 bucket using AWS for product pictures.",
       link: "https://dreamscomebrew.onrender.com/"
      
   },
