@@ -13,7 +13,7 @@ export const Data = [
     description:
       "In this exciting project, I challenged myself to build reddit as seen through my eyes. When it is completed, users will be able to create an account, write, read, update and delete posts. The general workflow may be a little different from the reddit we all know, but the theme stays the same",
      
-      link:"https://reddit-app-nw97.onrender.com/"
+      // link:"https://reddit-app-nw97.onrender.com/"
   },
   {
     id: 2,
