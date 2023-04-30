@@ -82,7 +82,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Full Stack Developer</h3>
-                <span  className="qualification__subtitle">Athen App</span>
+                <span  className="qualification__subtitle">Athena App</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
                   Sep. 2022 — Dec. 2022
