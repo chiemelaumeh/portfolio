@@ -15,7 +15,7 @@ const Qualification = () => {
           </div>
           <div className="qualification__button qualification__active button--flex">
             <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
-            Experience
+           Experience
           </div>
         </div>
 
@@ -27,10 +27,10 @@ const Qualification = () => {
           </div>
           <div>
             <h3 className="qualification__title">Software Engineer</h3>
-            <span className="qualification__subtitle">Payday</span>
+            <span className="qualification__subtitle">Reddit App</span>
             <div className="qualification__calender">
               <i className="uil uil-calender-alt"></i>
-              Aug. 2022 - Present
+              Jan. 2023 - May 2023
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  Jul. 2021 — Nov. 2021
+                  Jul. 2022 — Nov. 2022
                 </div>
               </div>
 
@@ -82,10 +82,10 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle">Galvanize Inc.</span>
+                <span  className="qualification__subtitle">Athen App</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  Jan. 2022 — Jun. 2022
+                  Sep. 2022 — Dec. 2022
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">U.S Army</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  Aug. 2018 - Dec. 2021
+                  Aug. 2019 - Dec. 2022
                 </div>
               </div>
             </div>
