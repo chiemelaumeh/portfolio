@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills__content">
-    <h3 className="skills__title">Backend developer</h3>
+    <h3 className="skills__title">Backend development</h3>
     <div className="skills__box">
       <div className="skill__group">
         <div className="skills__data">
@@ -50,7 +50,7 @@ const Backend = () => {
           <i class="bx bx-badge-check"></i>
 
           <div>
-            <h3 className="skills__name">Firebase</h3>
+            <h3 className="skills__name">Python</h3>
             {/* <span className="skills__level">Basic</span> */}
           </div>
         </div>

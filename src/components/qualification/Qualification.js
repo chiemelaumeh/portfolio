@@ -26,11 +26,11 @@ const Qualification = () => {
             <span className="qualification__line"></span>
           </div>
           <div>
-            <h3 className="qualification__title">Software Engineer</h3>
-            <span className="qualification__subtitle">Reddit App</span>
+            <h3 className="qualification__title">Software Engineer - Intern</h3>
+            <span className="qualification__subtitle">Payday</span>
             <div className="qualification__calender">
               <i className="uil uil-calender-alt"></i>
-              Jan. 2023 - May 2023
+              May 2023 - June 2023
             </div>
           </div>
         </div>
@@ -81,11 +81,11 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Full Stack Developer</h3>
-                <span  className="qualification__subtitle">Athena App</span>
+                <h3 className="qualification__title">Full Stack Development</h3>
+                <span  className="qualification__subtitle">myReddit, Athena App</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  Sep. 2022 — Dec. 2022
+                  Sep. 2022 — Present
                 </div>
               </div>
             </div>

@@ -17,7 +17,8 @@ const Testimonial = () => {
   return (
     <section className="testimonial container section" id="testimonial">
       <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">My projects</span>
+      <span className="section__subtitle">Click project names to check them out!</span>
+
       <Swiper
         className="testimonial_container"
         loop={true}
@@ -37,24 +38,30 @@ const Testimonial = () => {
         }}
         modules={[Pagination]}
       >
-      {Data.map(({ id, image, title, description,link }) => {
+        {Data.map(({ id, image, title, description, link }) => {
           return (
-            <SwiperSlide  key={id}>
-             
-              <h3 className="testimonial__name" > {title}</h3>
-              <p className="testimonial__description">{description} </p>
-              <a href={link} target='_blank' className="testimonial__name" >
+            <SwiperSlide key={id}>
+              <div className="title-div">
+                <a
+                  href={link}
+                  target="_blank"
+                  className="testimonial__name underline"
+                >
+                  {" "}
+                  {title}
+                </a>
+              </div>
+              <div className="div-img">
+                <p className="testimonial__description">{description} </p>
+                <div className="image-board">
 
-
-              <img src={image} alt="" className="testimonial__img" />
-             
-              {/* <h3 className="testimonial__name">{title}</h3> */}
-           
-              </a>
+                <img src={image} alt="" className="testimonial__img" />
+                </div>
+              </div>
+     
             </SwiperSlide>
           );
         })}
-
       </Swiper>
     </section>
   );

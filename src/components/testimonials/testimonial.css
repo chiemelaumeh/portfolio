@@ -9,25 +9,44 @@
   margin-bottom: var(--mb-3);
 }
 
+
+
+
 .testimonial__img {
-  width: 1500px;
-  height: 300px;
-  border-radius: 3rem;
-  margin-bottom: 3rem;
+
+
+  width: 300px;
+  height: 600px;
+  border-radius: 0.7rem;
+  /* margin-bottom: 3rem; */
   background-repeat: no-repeat;
-  /* background-position: center; */
 
-
-  border-radius: 4px;
+ 
 }
 
 .testimonial__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
+
   text-align: center;
   color: var(--title-color);
 
+
+}
+.title-div{
+  display: flex;
+  justify-content: center;
+
+}
+.image-board{
+  margin-top: 1rem;
+  padding: 0.4rem;
+  /* border: 1px solid  var(--title-color); */
+  border-radius: 0.8rem;
+}
+.underline{
+  text-decoration: underline;
 }
 
 .testimonial__description {
@@ -42,7 +61,12 @@
   background-color: var(--title-color) !important;
 }
 
+.div-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
 
 
 /*=============== BREAKPOINTS ===============*/
@@ -54,6 +78,19 @@
   .testimonial__card {
     padding: 1.25rem 1.5rem;
   }
+
+
+
+.testimonial__img {
+
+
+  width: 300px;
+  height: 650px;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  background-repeat: no-repeat;
+ 
+}
 
 }
 
