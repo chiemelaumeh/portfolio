@@ -19,7 +19,7 @@ const Social = () => {
         <i class="uil uil-twitter"></i>
       </a>
       <a
-        href="https://github.com/Blackflame6"
+        href="https://github.com/chiemelaumeh"
         className="home__social-icon"
         target="_blank"
       >

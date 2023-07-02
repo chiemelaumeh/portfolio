@@ -125,6 +125,7 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  
 }
 
 .section__subtitle {
@@ -137,7 +138,9 @@ img {
 .section__subtitle {
   text-align: center;
 }
-
+.section__mb{
+  margin-bottom: 2rem;
+}
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;

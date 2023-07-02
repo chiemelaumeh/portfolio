@@ -15,16 +15,15 @@ const About = () => {
         <div className="about__data">
           {/* <Info /> */}
           <p className="about__description">
-            Enterprising, self-motivated and teachable technology professional
+            Enterprising, self-motivated, and teachable technology professional
             keen on leveraging software engineering skills to build, maintain,
             and distribute computer software. Eager to contribute to team
-            success through hard work, attention to detail, excellent
-            organizational skills, and a positive attitude. Versatile
-            problem-solver with a curious mind that is driven to innovate and
-            solve customer problems.
+            success through hard work and excellent organizational skills.
           </p>
           <a download="" href={Resume} className="button button--flex">
-            Download Resume <i class="uil uil-file-download-alt"></i>
+            <div>
+              Download Resume <i class="uil uil-file-download-alt"></i>
+            </div>
           </a>
         </div>
       </div>
