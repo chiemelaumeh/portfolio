@@ -6,7 +6,7 @@ const Data = () => {
       <h1 className="home__title">Chiemela Umeh</h1>
       <h3 className="home__subtitle"> Full Stack Developer</h3>
       <p className="home__description">
-        Hello, thank you for visiting my website. I am Chiemela, a full stack developer and U.S Army
+        Hello, welcome to my website. I am Chiemela, a full stack developer and U.S Army
         veteran. I am proficient with the MERN stack,
         but I also learn many technologies and add them to my skill set.
         Outside of work, I enjoy playing chess, working out, and attending music
