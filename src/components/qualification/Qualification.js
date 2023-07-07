@@ -26,11 +26,11 @@ const Qualification = () => {
             <span className="qualification__line"></span>
           </div>
           <div>
-            <h3 className="qualification__title">Software Engineer - Intern</h3>
+            <h3 className="qualification__title">Software Engineer I</h3>
             <span className="qualification__subtitle">Payday</span>
             <div className="qualification__calender">
               <i className="uil uil-calender-alt"></i>
-              May 2023 - June 2023
+              Jan. 2023 - June 2023
             </div>
           </div>
         </div>

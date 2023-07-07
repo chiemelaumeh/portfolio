@@ -29,12 +29,17 @@ const Testimonial = () => {
         }}
         breakpoints={{
           576: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 48,
           },
+          1024: { 
+            slidesPerView: 1,
+            spaceBetween: 48,
+
+          }
         }}
         modules={[Pagination]}
       >

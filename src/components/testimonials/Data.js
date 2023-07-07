@@ -1,4 +1,5 @@
 import Image1 from "../../assets/test2.png";
+import Image2 from "../../assets/test3.png";
 import Image3 from "../../assets/test.png";
 
 export const Data = [
@@ -12,6 +13,14 @@ export const Data = [
 
     link: "https://myreddit-api.onrender.com/",
   },
+  {
+    id: 2,
+    image: Image2,
+    title: "myBooking",
+    description:
+      "Booking.com - a clone. Coming soon . . . A scalable solution that handles maintenance requests across 4 virtual campuses. It works by allowing users to log real world issues into a ticket board, then an admin will be assigned to each user ticket. Updates will be provided to users about their issues until they are resolved.",
+    link: "https://github.com/chiemelaumeh/Booking-Application",
+  },
 
   {
     id: 3,
@@ -21,4 +30,5 @@ export const Data = [
       "A scalable solution that handles maintenance requests across 4 virtual campuses. It works by allowing users to log real world issues into a ticket board, then an admin will be assigned to each user ticket. Updates will be provided to users about their issues until they are resolved.",
     link: "https://ticket-manager-app.onrender.com/",
   },
+
 ];

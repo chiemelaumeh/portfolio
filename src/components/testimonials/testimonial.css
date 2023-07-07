@@ -15,7 +15,7 @@
 .testimonial__img {
 
 
-  width: 300px;
+  width: 800px;
   height: 600px;
   border-radius: 0.7rem;
   /* margin-bottom: 3rem; */
@@ -41,6 +41,7 @@
 }
 .image-board{
   margin-top: 1rem;
+  
   padding: 0.4rem;
   /* border: 1px solid  var(--title-color); */
   border-radius: 0.8rem;
@@ -50,7 +51,8 @@
 }
 
 .testimonial__description {
-  font-size: var(--small-font-size)
+  font-size: var(--small-font-size);
+  text-align: center;
 }
 
 /* Swiper Class*/
@@ -71,6 +73,14 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
+@media screen and (max-width: 1840px) {
+  .image-board{
+    margin-bottom: 2rem;
+    
+
+  }
+
+}
 @media screen and (max-width: 992px) {
   .testimonial__container {
     width: initial;
@@ -78,13 +88,18 @@
   .testimonial__card {
     padding: 1.25rem 1.5rem;
   }
+  .image-board{
+    margin-bottom: 2rem;
+    
+
+  }
 
 
 
 .testimonial__img {
 
 
-  width: 300px;
+  width: 800px;
   height: 650px;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -96,13 +111,44 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
- 
+  .testimonial__img {
+
+
+    width: 600px;
+    height: 475px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-repeat: no-repeat;
+   
+  }
+  
 }
 
 @media screen and (max-width: 576px) {
+  .testimonial__img {
+
+
+    width: 350px;
+    height: 275px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-repeat: no-repeat;
+   
+  }
+  
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .testimonial__img {
 
+
+    width: 1000px;
+    height: 650px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-repeat: no-repeat;
+   
+  }
+  
 }
