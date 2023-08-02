@@ -10,7 +10,7 @@
   --hue: 0;
   --sat: 0%;
   /* --title-color: hsl(var(--hue), var(--sat), 20%); */
-  --title-color: #931625;
+  --title-color: #20598b;
 
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
@@ -121,7 +121,12 @@ img {
 .section {
   padding: 6rem 0 2rem;
 }
-
+.app{
+background-color: #fff;
+}
+.app-dark{
+background-color: #111;
+}
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);

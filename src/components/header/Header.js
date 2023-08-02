@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./header.css";
+import { BsToggleOff } from "react-icons/bs";
+import { BsToggleOn } from "react-icons/bs";
+import GeneralContext from "../../context/GeneralContext";
 
 const Header = () => {
-  //TOGGLE MENU
-  const [ Toggle, showMenu] = useState(false)
+  const { dark, setDark } = useContext(GeneralContext)
+  const [Toggle, showMenu] = useState(false);
+
+  const handleLight = () => {
+    setDark(!dark);
+  };
   return (
-    <header className="header">
+    <header className={dark ? "header-dark" : "dark"}>
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Chiemela
@@ -29,7 +36,8 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a href="#qualification" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i> Qualification
+                <i className="uil uil-briefcase-alt nav__icon"></i>{" "}
+                Qualification
               </a>
             </li>
             <li className="nav__item">
@@ -43,11 +51,26 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close " onClick={() => showMenu(!Toggle)}></i>
+          <i
+            class="uil uil-times nav__close "
+            onClick={() => showMenu(!Toggle)}
+          ></i>
         </div>
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-        <i class="uil uil-apps"></i>
+        {/* <li className="nav__item"> */}
+        <div className="nav__logo">
+          <p>
+            {dark ? (
+            
+              <BsToggleOn className="toggleButton" onClick={handleLight} />
+            ) : (
+              <BsToggleOff className="toggleButton" onClick={handleLight} />
+            )}
+          </p>
         </div>
+
+        {/* <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+          <i class="uil uil-apps"></i>
+        </div> */}
       </nav>
     </header>
   );

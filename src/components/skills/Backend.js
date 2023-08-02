@@ -1,6 +1,8 @@
 import React from 'react'
-
+import { useContext } from 'react'
+import GeneralContext from '../../context/GeneralContext'
 const Backend = () => {
+  const { dark, setDark } = useContext(GeneralContext)
   return (
     <div className="skills__content">
     <h3 className="skills__title">Backend development</h3>

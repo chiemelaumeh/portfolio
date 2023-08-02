@@ -1,9 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
-
+import GeneralContext from "../../context/GeneralContext";
 
 const Contact = () => {
+  const { dark, setDark } = useContext(GeneralContext)
 
   const [nameField, setNameField] = useState("") 
   const [emailField, setEmailField] = useState("") 
@@ -77,7 +78,7 @@ const Contact = () => {
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag" >Name</label>
+              <label className={dark ? "contact__form-tag-dark" : "contact__form-tag"} >Name</label>
               <input
                 type="text"
                 name="name"
@@ -90,7 +91,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className={dark ? "contact__form-tag-dark" : "contact__form-tag"}>Mail</label>
               <input
                 type="email"
                 name="email"
@@ -102,7 +103,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Message</label>
+              <label className={dark ? "contact__form-tag-dark" : "contact__form-tag"}>Message</label>
               <textarea
                 name="message"
                 cols="30"
