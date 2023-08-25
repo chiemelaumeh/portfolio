@@ -15,11 +15,15 @@ const About = () => {
         <div className="about__data">
           {/* <Info /> */}
           <p className="about__description">
-            Enterprising and self-motivated technology professional keen on
-            leveraging software development skills to build, maintain, and
-            distribute computer software. Ready to contribute to team success
-            through attention to detail, excellent organizational skills, and a
-            can-do attitude.
+          My interests are
+       Full Stack Development and Cloud/DevOps Engineering.
+        I prioritize learning and growing so that in the 
+        long run, I can give back multifold to the exciting 
+        world of Technology by providing guidance to those who
+         come after me. Currently, I am ready to create solutions
+          and contribute to team success through attention to 
+          detail, excellent organizational skills, and a can-do
+           attitude.
           </p>
           <a download="" href={Resume} className="button button--flex">
             <div>

@@ -49,9 +49,10 @@
 
 
 .home__description {
-  max-width: 400px;
+  max-width: 450px;
   margin-bottom: var(--mb-3);
   text-align: center;
+  /* border: 1px solid red; */
 }
 .home__img {
   background: url(../../assets/profile.jpg);
@@ -139,6 +140,12 @@
   .home__scroll {
     margin-left: 7.5;
   }
+  .home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+    text-align: center;
+    /* border: 1px solid red; */
+  }
   
 
 }
@@ -162,6 +169,12 @@
     margin-left: 0.2rem;
 
 
+  }
+  .home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+    text-align: center;
+    /* border: 1px solid red; */
   }
 }
 /* For medium devices */
@@ -227,6 +240,12 @@
 
 
   }
+  .home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+    text-align: center;
+    /* border: 1px solid red; */
+  }
 }
 
 /* For small devices */
@@ -234,6 +253,12 @@
   .home__img {
     width: 180px;
     height: 180px;
+  }
+  .home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+    text-align: center;
+    /* border: 1px solid red; */
   }
 }
 

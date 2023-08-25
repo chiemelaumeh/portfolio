@@ -18,7 +18,7 @@ export const Data = [
     image: Image2,
     title: "myBooking",
     description:
-      "Booking.com -  A scalable solution that handles maintenance requests across 4 virtual campuses. It works by allowing users to log real world issues into a ticket board, then an admin will be assigned to each user ticket. Updates will be provided to users about their issues until they are resolved.",
+      "A clone of booking.com. This exciting project allows travellers to  make reservations at hotels accross many cities ",
     link: "https://chiemela-booking-application.netlify.app/",
   },
 

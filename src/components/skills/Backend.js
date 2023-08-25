@@ -30,7 +30,7 @@ const Backend = () => {
           <i class="bx bx-badge-check"></i>
 
           <div>
-            <h3 className="skills__name">Express</h3>
+            <h3 className="skills__name">C++</h3>
             {/* <span className="skills__level">Basic</span> */}
           </div>
         </div>
@@ -43,7 +43,7 @@ const Backend = () => {
           <i class="bx bx-badge-check"></i>
 
           <div>
-            <h3 className="skills__name">SQL</h3>
+            <h3 className="skills__name">Linux</h3>
             {/* <span className="skills__level">Basic</span> */}
           </div>
         </div>
