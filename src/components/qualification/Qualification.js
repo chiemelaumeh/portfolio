@@ -84,6 +84,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
                   Sep. 2022 — Feb. 2023
+                  
                 </div>
               </div>
             </div>
