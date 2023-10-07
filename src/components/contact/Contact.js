@@ -84,7 +84,6 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Enter your name"
-                value={nameField}
                 onChange={changeNameField}
                 required
               />

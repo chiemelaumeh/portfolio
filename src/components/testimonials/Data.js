@@ -9,16 +9,16 @@ export const Data = [
 
     title: "myReddit",
     description:
-      "In this exciting project I challenge myself to build reddit in my perspective. Using React and MongoDB at both ends of this web application, an Expess.js server is implemented as a bridge to enable users create, read, update, delete, as well as leave comments on posts.",
+      "In this exciting project I challenge myself to build a post board. Using React and MongoDB at both ends of this web application, an Express server allows users to create, read, update and delete posts. You may also and leave comments and vote.",
 
-    link: "https://myreddit-api.onrender.com/",
+    link: "https://chiemela-postboard.netlify.app/",
   },
   {
     id: 2,
     image: Image2,
     title: "myBooking",
     description:
-      "A clone of booking.com. This exciting project allows travellers to  make reservations at hotels accross many cities ",
+      "A clone of booking.com. This exciting project will allow travellers to  make reservations at hotels accross many cities ",
     link: "https://chiemela-booking-application.netlify.app/",
   },
 
@@ -27,7 +27,7 @@ export const Data = [
     image: Image3,
     title: "Athena",
     description:
-      "A scalable solution that handles maintenance requests across 4 virtual campuses. It works by allowing users to log real world issues into a ticket board, then an admin will be assigned to each user ticket. Updates will be provided to users about their issues until they are resolved.",
+      "A scalable solution that handles maintenance requests across 4 virtual campuses. It works by enabling users to log real world issues into a ticket board, then an admin will be assigned to each user ticket. Updates will be provided to users about their issues until they are resolved.",
     link: "https://ticket-manager-app.onrender.com/",
   },
 
