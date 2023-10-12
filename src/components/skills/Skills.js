@@ -3,6 +3,7 @@ import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
 import GeneralContext from "../../context/GeneralContext";
+import Devops from "./Devops";
 
 const Skills = () => {
 
@@ -14,6 +15,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
         <Backend /> 
+        <Devops />
       </div>
     </section>
   );

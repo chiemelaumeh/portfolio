@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./header.css";
-import { BsToggleOff } from "react-icons/bs";
-import { BsToggleOn } from "react-icons/bs";
+import { MdOutlineLightMode } from "react-icons/md";
+import { MdOutlineDarkMode } from "react-icons/md";
 import GeneralContext from "../../context/GeneralContext";
 
 const Header = () => {
@@ -14,8 +14,8 @@ const Header = () => {
   return (
     <header className={dark ? "header-dark" : "dark"}>
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
-          Chiemela
+        <a href="https://medium.com/@chiemelaumeh1" target="_blank" className="nav__logo">
+          Publications
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
@@ -61,9 +61,9 @@ const Header = () => {
           <p>
             {dark ? (
             
-              <BsToggleOn className="toggleButton" onClick={handleLight} />
+              <MdOutlineLightMode className="toggleButton" onClick={handleLight} />
             ) : (
-              <BsToggleOff className="toggleButton" onClick={handleLight} />
+              <MdOutlineDarkMode className="toggleButton" onClick={handleLight} />
             )}
           </p>
         </div>
