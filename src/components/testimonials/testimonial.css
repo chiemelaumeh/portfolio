@@ -37,6 +37,7 @@
 .title-div{
   display: flex;
   justify-content: center;
+  
 
 }
 .image-board{
@@ -51,7 +52,7 @@
 }
 
 .testimonial__description {
-  font-size: var(--small-font-size);
+  /* font-size: var(--small-font-size); */
   text-align: center;
 }
 

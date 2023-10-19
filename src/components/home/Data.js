@@ -2,8 +2,8 @@ import React from "react";
 
 const Data = () => {
   return (
-    <div className="home__data">
-      <h1 className="home__title">Chiemela Umeh</h1>
+    <div className="home__data  ">
+      <h1 className="home__title ">Chiemela Umeh</h1>
       <h3 className="home__subtitle"> Full Stack Developer/DevOps Engineer</h3>
       <p className="home__description">
         Hello! Welcome to my website. My name is Chiemela. The fascination with

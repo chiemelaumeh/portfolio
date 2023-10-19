@@ -1,15 +1,22 @@
-.header {
+.dark {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  /* margin-bottom: 10rem; */
 
-  background-color: #fff;
+  background-color: #20598b;
 
 }
 .header-dark {
-  
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* margin-bottom: 10rem; */
+
+  z-index: var(--z-fixed);
 
   background-color: #111;
 
@@ -24,7 +31,13 @@
 }
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
+  color: #fdf9f3;
+  font-weight: var(--font-medium);
+}
+.nav__logo:hover{
+  color: #fdf9f3;
+  scale: 1.2;
+  transition: .25s;
   font-weight: var(--font-medium);
 }
 .nav__list {
@@ -37,7 +50,7 @@
   flex-direction: column;
   align-items: center;
   font-size: var(--small-font-soze);
-  color: var(--title-color);
+  color: #fdf9f3;
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
@@ -47,15 +60,21 @@
   display: none;
 }
 .toggleButton{
-  color: #20598b;
-  font-size: 1.5rem;
+  color: #fdf9f3;
+  font-size: 1.2rem;
   font-weight: 600;
+  cursor: pointer;
+}
+.toggleButton:hover{
+ transition: .25s;
+  scale: 1.5;
+
   cursor: pointer;
 }
 /* Active link*/
 .active-link,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  color:#53ccf4;
 }
 
 /*=============== BREAKPOINTS ===============*/

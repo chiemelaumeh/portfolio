@@ -59,6 +59,7 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
+            
 
             <div className="contact__card">
               <i className="bx bx-phone contact__card-icon"></i>
@@ -113,11 +114,12 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button className="button button--flex">
-              <p>Send message</p>
+            <button  className="button button--flex center-button">
+              <p>Send</p>
             </button>
           </form>
         </div>
+        
       </div>
     </section>
   );

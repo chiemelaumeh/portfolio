@@ -53,7 +53,7 @@ const Testimonial = () => {
                   className="testimonial__name underline"
                 >
                   {" "}
-                  {title}
+                  {title} 
                 </a>
               </div>
               <div className="div-img">
@@ -64,11 +64,11 @@ const Testimonial = () => {
                 </div>
               </div>
      
-            </SwiperSlide>
+        </SwiperSlide>
           );
         })}
-      </Swiper>
-    </section>
+        </Swiper>
+      </section>
   );
 };
 //

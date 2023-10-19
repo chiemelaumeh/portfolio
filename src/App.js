@@ -11,7 +11,7 @@ import { useContext } from "react";
 
 function App() {
 
-  const { dark, setDark } = useContext(GeneralContext)
+  const { dark } = useContext(GeneralContext)
   
   return (
   
@@ -20,10 +20,10 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <About />
         <Skills />
-        <Qualification />
+        <About />
         <Testimonial />
+        <Qualification />
         <Contact />
 
       </main>
