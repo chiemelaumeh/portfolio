@@ -16,12 +16,11 @@ const About = () => {
           {/* <Info /> */}
           <p className="about__description">
            
-          My interests are Full Stack Development and Cloud/DevOps Engineering. 
-          I prioritize growth and teamwork so that in the long run,
-           I will give back multifold to the vibrant world of Technology by providing
-            guidance to those who come after me. Currently, I am ready to contribute to 
-            team success through attention to detail, excellent organizational skills, 
-            and a can-do attitude
+          As a software developer and cloud Engineer,
+           my goal is to deliver working software, on time and within budget,
+            according to client requirements, and provide value to business. Currently, 
+            I am ready to contribute to team success through attention to detail,
+             excellent organizational skills, and a can-do attitude.
           </p>
           <a download="" href={Resume} className="button button--flex">
             <div>
