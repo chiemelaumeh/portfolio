@@ -8,7 +8,7 @@ import Devops from "./Devops";
 const Skills = () => {
 
   return (
-    <section className="skills section" id="skills">
+    <section className="skills section-half mb-main" id="skills">
       <h2 className="section__title section__mb ">Skills</h2>
 
 

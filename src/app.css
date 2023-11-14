@@ -124,6 +124,10 @@ img {
 .section {
   padding: 6rem 0 2rem;
 }
+.section-half {
+
+  padding:2rem 0 1rem;
+}
 .app{
 /* background-color: #f3f5f7; */
 background-color: #fdf9f3;
@@ -140,7 +144,7 @@ background-color: #111;
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .section__title,

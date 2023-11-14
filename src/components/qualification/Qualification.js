@@ -3,8 +3,8 @@ import "./qualification.css";
 
 const Qualification = () => {
   return (
-    <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualification</h2>
+    <section className="qualification section-half" id="qualification">
+      <h2 className="section__title">Qualifications</h2>
       <span className="section__subtitle">My personal journey</span>
 
       <div className="qualification__container container">
@@ -31,11 +31,11 @@ const Qualification = () => {
             <span className="qualification__line"></span>
           </div>
           <div>
-            <h3 className="qualification__title">Software Engineer Intern </h3>
+            <h3 className="qualification__title">Software Engineer </h3>
             <span className="qualification__subtitle">Payday</span>
             <div className="qualification__calender">
               <i className="uil uil-calender-alt"></i>
-              May 2023 - July 2023
+              Mar 2023 - Aug. 2023
             </div>
           </div>
         </div>
