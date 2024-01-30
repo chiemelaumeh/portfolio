@@ -13,6 +13,14 @@ export const Data = [
     link: "https://chiemela-ecommerce.netlify.app/",
   },
   {
+    id: 5,
+    image: Image4,
+    title: "Calculator",
+    description:
+      "Online calculator built using Vanilla JS",
+    link: "https://chiemelacalculator.netlify.app/",
+  },
+  {
     id: 1,
     image: Image1,
 
