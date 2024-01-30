@@ -2,6 +2,7 @@ import Image1 from "../../assets/test2.png";
 import Image2 from "../../assets/test3.png";
 import Image3 from "../../assets/test.png";
 import Image4 from "../../assets/test4.png";
+import Image5 from "../../assets/test5.png";
 
 export const Data = [
   {
@@ -13,21 +14,13 @@ export const Data = [
     link: "https://chiemela-ecommerce.netlify.app/",
   },
   {
-    id: 5,
-    image: Image4,
-    title: "Calculator",
-    description:
-      "Online calculator built using Vanilla JS",
-    link: "https://chiemelacalculator.netlify.app/",
-  },
-  {
     id: 1,
     image: Image1,
-
+    
     title: "myReddit",
     description:
-      "In this exciting project I challenge myself to build a post board. Using React and MongoDB at both ends of this web application, an Express server allows users to create, read, update and delete posts. You may also and leave comments and vote.",
-
+    "In this exciting project I challenge myself to build a post board. Using React and MongoDB at both ends of this web application, an Express server allows users to create, read, update and delete posts. You may also and leave comments and vote.",
+    
     link: "https://chiemela-postboard.netlify.app/",
   },
   
@@ -36,10 +29,18 @@ export const Data = [
     image: Image2,
     title: "myBooking",
     description:
-      "A clone of booking.com. This exciting project will allow travellers to  make reservations at hotels accross many cities ",
+    "A clone of booking.com. This exciting project will allow travellers to  make reservations at hotels accross many cities ",
     link: "https://chiemela-booking-application.netlify.app/",
   },
-
+  
+  {
+    id: 5,
+    image: Image5,
+    title: "Calculator",
+    description:
+      "Online calculator built using Vanilla JS",
+    link: "https://chiemelacalculator.netlify.app/",
+  },
   {
     id: 3,
     image: Image3,
