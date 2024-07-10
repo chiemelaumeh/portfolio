@@ -5,7 +5,7 @@ const Qualification = () => {
   return (
     <section className='qualification section-half' id='qualification'>
       <h2 className='section__title'>Qualifications</h2>
-      <span className='section__subtitle'>My personal journey</span>
+      <span className='section__subtitle'>My journey</span>
 
       <div className='qualification__container container'>
         <div className='qualification__tabs'>
@@ -26,11 +26,11 @@ const Qualification = () => {
             <span className='qualification__line'></span>
           </div>
           <div>
-            <h3 className='qualification__title'>Technical Support Rep. </h3>
+            <h3 className='qualification__title'>Technical Support Agent </h3>
             <span className='qualification__subtitle'>Viasat</span>
             <div className='qualification__calender'>
               <i className='uil uil-calender-alt'></i>
-              Jan. 2024 - Present
+              Feb. 2024 - Present
             </div>
             <div className='qual_mb'></div>
           </div>
@@ -80,9 +80,9 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
               <div>
-                <h3 className='qualification__title'>Full Stack Developer</h3>
+                <h3 className='qualification__title'>Full Stack Development Projects</h3>
                 <span className='qualification__subtitle'>
-                  myReddit, Athena App
+                  Furniture Store, Postboard, Athena App
                 </span>
                 <div className='qualification__calender'>
                   <i className='uil uil-calender-alt'></i>
@@ -109,6 +109,7 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
             </div>
+           
 
             <div className='qualification__data'>
               <div></div>
@@ -145,6 +146,25 @@ const Qualification = () => {
                 <span className="qualification__line"></span> */}
             {/* </div> */}
             {/* </div> */}
+
+            <div className='qualification__data'>
+              <div>
+                <h3 className='qualification__title'>
+                  Mechanical Engineering, (A.S.)
+                </h3>
+                <span className='qualification__subtitle'>
+                  Southern Arkansas University
+                </span>
+                <div className='qualification__calender'>
+                  <i className='uil uil-calender-alt'></i>
+                  Jan. 2016 — Dec. 2017
+                </div>
+              </div>
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

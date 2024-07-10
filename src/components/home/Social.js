@@ -4,6 +4,17 @@ import React from "react";
 const Social = () => {
   return (
     <div className="home__social">
+
+      
+       <a
+        href="https://medium.com/@chiemelaumeh1"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i class="uil uil-book"></i>
+
+       
+      </a>
       <a
         href="https://www.linkedin.com/in/chiemela-umeh-b4b982151/"
         className="home__social-icon"
@@ -29,15 +40,7 @@ const Social = () => {
 
        
       </a>
-      <a
-        href="https://medium.com/@chiemelaumeh1"
-        className="home__social-icon"
-        target="_blank"
-      >
-        <i class="uil uil-book"></i>
-
-       
-      </a>
+     
     </div>
   );
 };

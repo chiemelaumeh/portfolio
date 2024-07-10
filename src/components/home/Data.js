@@ -14,11 +14,11 @@ const Data = () => {
         how computers work drove me from Mechanical Engineering to Computer
         Science at the University of Houston, (Go Coogs! 🐾). Outside of work, I enjoy playing
         chess, working out, and attending music concerts. */}
-        Hello! Welcome to my website. My name is Chiemela. I am Software
+        Hello! My name is Chiemela. I am DevOps
         Engineer working diligently to hone my expertise in a range of
         technologies including
         <p className='name-skills'>
-          Javascript, Python, React, Node.js, HTML, CSS, AWS, and Docker.
+          Jenkins, Python, Ansible, Docker, AWS, Linux and Terraform.
         </p>
         I thrive in a collaborative team setting to deliver high-quality
         solutions with efficiency and precision.
