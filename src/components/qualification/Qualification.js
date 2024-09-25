@@ -47,7 +47,7 @@ const Qualification = () => {
             <span className='qualification__subtitle'>Payday</span>
             <div className='qualification__calender'>
               <i className='uil uil-calender-alt'></i>
-              Mar 2023 - Aug. 2023
+              May 2023 - Jul. 2023
             </div>
           </div>
         </div>
