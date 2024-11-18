@@ -8,6 +8,7 @@ import Testimonial from "./components/testimonials/Testimonial";
 import Contact from "./components/contact/Contact";
 import GeneralContext from "./context/GeneralContext";
 import { useContext } from "react";
+import CountdownTimer from "./components/countDownTimer";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        {/* <CountdownTimer /> */}
         <Skills />
         <About />
         <Testimonial />

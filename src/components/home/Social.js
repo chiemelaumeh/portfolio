@@ -32,7 +32,7 @@ const Social = () => {
         <i class="uil uil-github"></i>
       </a>
       <a
-        href="https://www.youtube.com/@frankwebdevops"
+        href="https://www.youtube.com/@chiemelaumeh"
         className="home__social-icon"
         target="_blank"
       >

@@ -3,7 +3,7 @@ import React from "react";
 const Devops = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">DevOps Engineering</h3>
+      <h3 className="skills__title">DevOps / Cloud</h3>
       <div className="skills__box">
         <div className="skill__group">
           <div className="skills__data">

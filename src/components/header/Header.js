@@ -15,7 +15,7 @@ const Header = () => {
     <header className={dark ? "header-dark" : "dark"}>
       <nav className="nav container">
         <a href="https://medium.com/@chiemelaumeh1" target="_blank" className="nav__logo">
-          Publications
+          My Publications
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
