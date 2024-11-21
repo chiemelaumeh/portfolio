@@ -8,6 +8,8 @@ import Testimonial from "./components/testimonials/Testimonial";
 import Contact from "./components/contact/Contact";
 import GeneralContext from "./context/GeneralContext";
 import { useContext } from "react";
+
+import Certifications from "./certifications/Certifications";
 import CountdownTimer from "./components/countDownTimer";
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Home />
         {/* <CountdownTimer /> */}
         <Skills />
+        <Certifications />
         <About />
         <Testimonial />
         <Qualification />
