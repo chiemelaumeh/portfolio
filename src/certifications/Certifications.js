@@ -15,7 +15,8 @@ const Certifications = () => {
       {/* //to add certs, increase grid-template-columns: repeat(1, 350px); of the cert__container class in certification.css file */}
       <div className="cert__container certgrid ">
         <Csaa />
-        <Cka />
+        {/* <Cka /> */}
+      
   
       </div>
     </section>

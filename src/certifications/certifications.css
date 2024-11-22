@@ -31,7 +31,7 @@
 }
 
 .cert__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(1, 350px);
     column-gap: 2rem;
     justify-content: center;
   }
