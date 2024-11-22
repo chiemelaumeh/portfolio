@@ -86,6 +86,9 @@
   z-index:1;
 
 }
+::placeholder{
+  color: #d5d8db;
+}
 .contact__form-tag {
   position: absolute;
   top: -0.75rem;
@@ -109,7 +112,7 @@
   
 }
 .contact__form-area {
-  height: 11rem;
+  height: 7.5rem;
 }
 
 .contact__form-area textarea {

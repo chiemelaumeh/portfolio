@@ -31,13 +31,13 @@
 }
 
 .cert__container {
-    grid-template-columns: repeat(1, 350px);
+    grid-template-columns: repeat(2, 350px);
     column-gap: 2rem;
     justify-content: center;
   }
 .certgrid {
     display: grid;
-    gap: 1.5rem;
+    gap: 5rem;
   }
 
  
