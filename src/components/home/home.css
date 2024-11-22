@@ -50,8 +50,8 @@ color:#53ccf4;
 
 .home__subtitle {
   /* position: relative; */
-  font-size: var(--normal-font-size);
-  font-weight: 200;
+  /* font-size: var(--normal-font-size); */
+  font-weight: 400;
   /* padding-left: 5rem; */
   /* font-weight: var(--font-normal); */
   margin-bottom: var(--mb-1);

@@ -12,7 +12,7 @@ const Cka = () => {
  
         <div className="image-board">
           <img src={image1} alt="" className="testimonial__img" />
-          <h3 className="skills__title">CKA
+          <h3 className="cert__title">CKA
 
           </h3>
         </div>

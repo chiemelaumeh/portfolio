@@ -12,7 +12,7 @@ const Csaa = () => {
  
         <div className="image-board">
           <img src={image1} alt="" className="testimonial__img" />
-          <h3 className="skills__title">SAA-C03
+          <h3 className="cert__title">SAA-C03
 
           </h3>
         </div>
