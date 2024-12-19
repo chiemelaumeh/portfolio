@@ -66,6 +66,24 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
+                Undergraduate Student Tutor{" "}
+                </h3>
+                <span className="qualification__subtitle">University of Houston</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  May 2024 - Nov. 2024
+                </div>
+                <div className="qual_mb"></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
                   Software Engineer Intern{" "}
                 </h3>
                 <span className="qualification__subtitle">Payday</span>
@@ -103,7 +121,7 @@ const Qualification = () => {
                   Student Software Engineer
                 </h3>
                 <span className="qualification__subtitle">
-                  Galvanize Inc. (Bootcamp)
+                  Galvanize Inc. (Web Development Bootcamp)
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
