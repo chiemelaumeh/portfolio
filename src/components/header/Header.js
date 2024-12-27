@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className={dark ? "header-dark" : "dark"}>
       <nav className="nav container">
-        <a href="https://medium.com/@chiemelaumeh1" target="_blank" className="nav__logo">
+        <a href="https://medium.com/@franklynumeh" target="_blank" className="nav__logo">
           My Publications
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
