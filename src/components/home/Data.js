@@ -3,7 +3,7 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data  ">
-      <h className="home__title ">Chiemela Umeh</h>
+      <h className="home__title ">Franklyn Umeh</h>
 
       <h3 className="home__subtitle"> Software Engineer | Cloud</h3>
       <p className="home__description">
@@ -16,7 +16,7 @@ const Data = () => {
     including CI/CD, DevOps, Linux systems Administration, automation,
      and cloud infrastructure. I enjoy solving complex problems and collaborating 
      with teams to deliver high-quality, reliable software.  */}
-        I’m Chiemela, a software engineer passionate about building scalable 
+        I’m Franklyn, a software engineer passionate about building scalable 
         and resilient cloud solutions. My expertise spans CI/CD, Linux systems administration,
          automation, and monitoring. I enjoy solving complex problems and collaborating 
          with teams to deliver high-quality, reliable software.
