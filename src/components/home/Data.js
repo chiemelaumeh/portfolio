@@ -5,7 +5,7 @@ const Data = () => {
     <div className="home__data  ">
       <h className="home__title ">Franklyn Umeh</h>
 
-      <h3 className="home__subtitle"> Software Engineer | Cloud</h3>
+      <h3 className="home__subtitle"> Software Engineer | Cloud | DevOps</h3>
       <p className="home__description">
         {/* Hello! Welcome to my website. My name is Chiemela. The fascination with
         how computers work drove me from Mechanical Engineering to Computer

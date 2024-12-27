@@ -7,7 +7,7 @@ const Social = () => {
 
       
        <a
-        href="https://medium.com/@chiemelaumeh1"
+        href="https://medium.com/@franklynumeh"
         className="home__social-icon"
         target="_blank"
       >
@@ -16,7 +16,7 @@ const Social = () => {
        
       </a>
       <a
-        href="https://www.linkedin.com/in/chiemela-umeh-b4b982151/"
+        href="https://www.linkedin.com/in/franklynumeh/"
         className="home__social-icon"
         target="_blank"
       >
@@ -25,7 +25,7 @@ const Social = () => {
       </a>
     
       <a
-        href="https://github.com/chiemelaumeh"
+        href="https://github.com/franklynumeh"
         className="home__social-icon"
         target="_blank"
       >
