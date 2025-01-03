@@ -47,7 +47,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  Support Engineer{" "}
+                  Cloud Support Engineer{" "}
                 </h3>
                 <span className="qualification__subtitle">Viasat</span>
                 <div className="qualification__calender">
@@ -67,7 +67,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  Full Stack Software Engineer {" "}
+                  DevOps Software Engineer {" "}
                 </h3>
                 <span className="qualification__subtitle">Payday</span>
                 <div className="qualification__calender">
@@ -77,7 +77,7 @@ const Qualification = () => {
                 <div className="qual_mb"></div>
               </div>
             </div>
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -94,7 +94,25 @@ const Qualification = () => {
                 </div>
                 <div className="qual_mb"></div>
               </div>
-            </div>
+            </div> */}
+            {/* <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                Undergraduate Student Tutor{" "}
+                </h3>
+                <span className="qualification__subtitle">P</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  Jan. 2023 - Feb. 2f024
+                </div>
+                <div className="qual_mb"></div>
+              </div>
+            </div> */}
 
             {/* <div className="qualification__data">
               <div></div>
@@ -153,6 +171,26 @@ const Qualification = () => {
           </div>
 
           <div className="qualification__content">
+
+
+          <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  DevOps Cloud Architect {" "}
+                </h3>
+                <span className="qualification__subtitle">Payday</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  Mar. 2018 - June 2019
+                </div>
+                <div className="qual_mb"></div>
+              </div>
+            </div>
             {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Development</h3>
